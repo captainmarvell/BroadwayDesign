@@ -1,0 +1,47 @@
+/*Font and text*/
+body {
+    font-family: 'Helvetica';
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+h4 { 
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+}
+/*div elements*/
+
+/*header*/
+.header {
+    color: white;
+    background-image: url(the-flatiron-building.png);
+    width: 100%;
+    background-size: cover;
+}
+/*mid section splash*/
+.designnyc {
+    color: white;
+    background-image: url(the-flatiron-building.png);
+    width: 100%;
+    background-size: cover;
+    font-size: 23px;
+    font-weight: bold;
+}
+/*footer*/
+.footer {
+    font-size: 11px;
+    color: white;
+    background-color: dimgray;
+}
