@@ -17,9 +17,13 @@ h3 {
 }
 h4 { 
     font-size: 18px;
+    font-weight: normal;
 }
 p {
     font-size: 14px;
+}
+a {
+    color: white;
 }
 /*div elements*/
 
@@ -28,20 +32,27 @@ p {
     color: white;
     background-image: url(the-flatiron-building.png);
     width: 100%;
-    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 /*mid section splash*/
 .designnyc {
     color: white;
     background-image: url(the-flatiron-building.png);
     width: 100%;
-    background-size: cover;
     font-size: 23px;
     font-weight: bold;
 }
 /*footer*/
 .footer {
-    font-size: 11px;
     color: white;
     background-color: dimgray;
+    text-align: left;
+    padding: 5px;
+}
+.footer p {
+    font-size: 11px;
+}
+.footer a {
+    font-size: 18px;
 }
